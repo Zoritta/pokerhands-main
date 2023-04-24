@@ -9,4 +9,4 @@ const CompareHands = require('./CompareHands');
 //console.log(CompareHands.compare(hand1, hand2));
 
 let aHand = new Hand('♥9', '♥T', '♥J', '♦J', '♠9');
-console.log(CompareHands.rankOccurences(aHand));
+console.log(CompareHands.isTwoPair(aHand));
