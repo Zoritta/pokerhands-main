@@ -12,7 +12,7 @@ test('check that isOnePair returns Falsy if not OnePair', () => {
   expect(CompareHands.isOnePair(hand)).toBeFalsy();
 });
 
-test('check that isonePair returns a higher score for a stronger hand (if two hands but with onePair)', () => {
+test('check that isOnePair returns a higher score for a stronger hand (if two hands but with OnePair)', () => {
   let hand1 = new Hand('♦9', '♦3', '♣7', '♥5', '♦6');
   let hand2 = new Hand('♥8', '♣8', '♥7', '♦6', '♠5');
   let hand1Score = CompareHands.isOnePair(hand1);
